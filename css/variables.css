@@ -1,0 +1,21 @@
+:root {
+  --cor-de-fundo: #000000;
+  --cor-de-texto: #ffffff;
+  --cor-de-botao: #0066ff;
+}
+
+.container {
+  max-width: 1280px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.animacao-hover {
+  transition: 0.3s;
+}
+
+.animacao-hover:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,66 @@
+.introducao {
+  padding: 36px 0;
+  background-color: var(--cor-de-fundo);
+  color: var(--cor-de-texto);
+}
+
+.introducao .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.introducao h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.introducao p {
+  max-width: 60ch;
+  margin-top: 8px;
+  opacity: 0.7;
+}
+
+.link-jogo {
+  color: #0065fd;
+}
+
+.botao-jogo {
+  background-color: var(--cor-de-botao);
+  color: #f0f0f0;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 8px;
+  margin-top: 24px;
+  transition: 0.3s;
+}
+
+.botao-jogo:hover {
+  transform: scale(1.05);
+}
+
+.introducao-imagem {
+  max-width: 550px;
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    padding: 16px 0;
+  }
+  .introducao-imagem {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .introducao h1 {
+    font-size: 1.2rem;
+  }
+  .introducao p {
+    font-size: 0.875rem;
+  }
+  .botao-jogo {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,43 @@
+.security-tips {
+  background-color: var(--cor-de-fundo);
+  color: var(--cor-de-texto);
+  padding: 36px 20px;
+}
+
+.security-tips h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+strong {
+  color: var(--cor-de-botao);
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.tips-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding: 0 20px;
+  margin-top: 20px;
+  max-width: 120ch;
+}
+
+.tip-item {
+  padding-right: 20px;
+}
+
+.tip-text {
+  margin-top: 8px;
+  opacity: 0.7;
+}
+
+@media (max-width: 480px) {
+  .security-tips h2 {
+    font-size: 1.5rem;
+  }
+  .tips-list {
+    grid-template-columns: 1fr;
+  }
+}
