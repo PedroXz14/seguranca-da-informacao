@@ -9,12 +9,6 @@
   font-weight: 400;
 }
 
-strong {
-  color: var(--cor-de-botao);
-  font-weight: 400;
-  font-size: 1.125rem;
-}
-
 .tips-list {
   display: grid;
   grid-template-columns: 1fr 1fr;

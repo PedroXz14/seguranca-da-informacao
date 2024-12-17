@@ -21,3 +21,9 @@ img {
   max-width: 100%;
   display: block;
 }
+
+strong {
+  color: var(--cor-de-botao);
+  font-weight: 400;
+  font-size: 1.125rem;
+}
